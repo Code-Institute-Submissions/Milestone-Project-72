@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 @import url('../images/HP3.JPG');
+@import url('../images/HP4.jpg');
+@import url('../images/Homepage2.jpg');
+@import url('../images/Img3.jpg');
+
 
 html{
     scroll-behavior: smooth;
@@ -55,7 +59,7 @@ p{
 
 
 .row {
-   /*display: flex; equal height of the children */
+   /*display: flex; equal height of the children*/ 
     height:100vh;
     
 }
@@ -91,9 +95,12 @@ p{
 #gallery-page{
     clear:both;
     line-height: 0;
-    column-count: 4;
+    column-count: 2;
     column-gap: 0px;
+   
 }
 #gallery-page img{
     width:100%;
+    height:auto;
 }
+
