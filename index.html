@@ -38,7 +38,7 @@
             <nav class="nav d-flex flex-column flex-md-row w-100 justify-content-end">
                 <a class="flex-fill text-center text-light nav-link active" href="#">Home</a>
                 <a class="flex-fill text-center text-light nav-link" href="#gallery-page">Gallery</a>
-                <a class="flex-fill text-center text-light nav-link" href="#">Contact</a>
+                <a class="flex-fill text-center text-light nav-link" href="#contact-page">Contact</a>
             </nav>
         </div>
     </nav>        
@@ -66,6 +66,29 @@
     <img src="assets/images/Family1.jpg" alt="Familypic">
     <img src="assets/images/Family2.jpg" alt="Familypic">    
 </section>
+<section id="contact-page" style="height:100vh">
+    <div class="row">
+        <div class="col-sm" style="margin-right:5">
+            <h5>123 Nörravägen Lund 22228 Sweden</h5>
+            <h5>Phone:+46 0000 0000</h5>
+            <img src="assets/images/Colorfulmap.jpg" alt="" width="400" height="400">
+        </div>
+        <div class="col-sm" style="padding:10px">
+            <form class="signup-form" action="/action_page.php">
+                <h2>Swing by for a fika, or leave us a message</h2>
+                <label for="fname">First Name</label>
+                <input class="text-input" type="text" id="fname" name="first_name" required><br>
+                <label for="lname">Last Name</label>
+                <input class="text-input" type="text" id="lname" name="last_name" required><br> 
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required><br>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                <input type="submit" value="Submit">
+             </form>
+        </div>
+    </div>
+</section>
 <footer>
 		<ul class="social-networks">
             <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
@@ -73,7 +96,7 @@
             <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
             <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
         </ul>
-	</footer>
+</footer>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
