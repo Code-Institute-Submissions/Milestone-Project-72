@@ -9,21 +9,23 @@ html{
     scroll-behavior: smooth;
 }
 body{
-  /*  overflow: hidden;*/
+   overflow-x: hidden;
     margin: 0;
     padding:0;
   }
-header{
+/*header{
     position: relative;
-}
-#home-page{
-   width:100%;
+}*/
+#section-home{
+  /* width:100%;*/
    padding:0%;
+   box-sizing: border-box;
  }
 
 /*Footer Styling*/
 footer{
-    height:150px;
+    height:60px;
+
 }
 .social-networks{
     text-align:center;
@@ -53,13 +55,13 @@ p{
     font-size:100%;
     font-family:lato;
     text-align: justify;
-    color: black;
+    color: #000;
     padding:5%;
 }
 
 
 .row {
-   /*display: flex; equal height of the children*/ 
+   /*display: flex;*/
     height:100vh;
     
 }
@@ -92,16 +94,22 @@ p{
     75%{background-image: url("../images/Img3.jpg");}
 }
 /*Gallerypage styling*/
-#gallery-page{
+#section-gallery{
+    width:100%;
     clear:both;
     line-height: 0;
     column-count: 2;
     column-gap: 0px;
+    display: inline-table;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 8px;
    
 }
-#gallery-page img{
-    width:100%;
+#section-gallery img{
+    width:50%;
     height:auto;
+    padding: 10px;
 }
 
 /* contact form*/
@@ -116,7 +124,7 @@ input[type=text],[type=email],textarea {
 
 input[type=submit] {
   background-color: #4CAF50;
-  color: white;
+  color: #fff;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
@@ -124,4 +132,20 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+/*Contact Page Styling*/
+#section-contact{
+    padding: 20px;
+   /* width: 100%;*/
+    box-sizing:border-box;
+}
+.col-sm img{
+    height:200px;
+    width:200px;
+}
+@media screen and (max-width:943px){
+    #imgscroll{
+        height:400px;
+
+    }
 }
