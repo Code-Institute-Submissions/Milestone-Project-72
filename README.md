@@ -7,7 +7,7 @@
     1.Visiting User be able to know about the photographer.
     2.Visiting User be able to see the work of the photographer.
     3.Visiting User be able to connect to the Photographer.
-Click [here](../master/Wireframes/WireframeofCapturePhotographyWebpage.png) to view the wireframe of this project.
+Click [here](../Wireframes/WireframeofCapturePhotographyWebpage.png) to view the wireframe of this project.
 
 ## Features
     
