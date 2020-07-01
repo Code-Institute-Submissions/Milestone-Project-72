@@ -8,7 +8,7 @@ In the webpage the looks, colors and fonts is given more weightage so it attract
 2. Visiting User be able to see the work of the photographer.
 3. Visiting User be able to connect to the photographer.
 
-Click [here](https://github.com/Vanitha-krishnan/Milestone-Project-1/tree/master/Wireframes) to view the wireframe for both desktop view and mobile view of this project.
+Click [here](https://github.com/Vanitha-krishnan/Milestone-Project-1/blob/master/Wireframes/WireframeofCapturePhotographyWebpage.png) to view the wireframe for both desktop view and mobile view of this project.
 
 ## Features
     
@@ -35,7 +35,7 @@ Click [here](https://github.com/Vanitha-krishnan/Milestone-Project-1/tree/master
 6. Fontawesome-to obtain the icon in the webpage.
  ## Best Practices
  1. Hex code is used throughout the project.
- 2. Name convention is followed in the coding example element-section like section-gallery has been used.
+ 2. Name convention is followed in the coding example Kebab case for css naming element-section like section-gallery has been used.
  3. Advantage of Name convention is no explicit comment needed.
  3. Code has been checked in the https://validator.w3.org/
  4. Git comment message clearly says the problem fixed. 
@@ -87,11 +87,24 @@ Test Cases for mobile view
 4. Below the picture of the photographer should be the write-up of the photographer.
  
 #### Gallery Section
+  
+ Test cases for Desktop view
 
-1.  User must be able to see the images displayed in two columns.
+1. User must be able to see the images displayed in two columns.
+
+Test cases for Mobile view
+
+1. User must be able to see the images scaled down to fit the Mobile view
 
 #### Contact Section
+Test cases for Desktop view
+
 1. User should be able to see the address of the company and contact form placed adjacently.
+2. Try to submit the empty form and verify that an error message about the required fields (First Name, Last Name, Email) appears
+3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
+
+Test cases for Mobile view
+1. User shoould be able to see the address of the company and contact form placed one below the other.
 2. Try to submit the empty form and verify that an error message about the required fields (First Name, Last Name, Email) appears
 3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
 
@@ -111,7 +124,9 @@ Test Cases for mobile view
 
 The steps to deploy the project.
     1. Download the files form the Git respository.
-    2. Double click the index.HTML
+    2. downlaod option will get the zip folder of the repo.
+    3. Extract the zip folder of your choice. 
+    2. Run the index.HTML in your browser.
 
 Developer deployes the project by 
 
