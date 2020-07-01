@@ -1,8 +1,8 @@
 # Capture Photography
 ## Agenda:
-This webpage is to highlight the passion and skill of the photographer and also to let the client know about Photographer and his work.Hence the Gallery is given importance.
+This webpage is to highlight the passion and skill of the photographer and also to let the client know about Photographer and his work. Hence the Gallery is given importance.
 ## Typographic:
-In the webpage the looks, colors and fonts is given more weightage so it attracts the visiting user and become a client.
+In the webpage the looks, colors and fonts is given more weightage so it attracts the visiting user and become a client. The font "lato" is used to make the webpage look professional.
 ## User stories:
 1. Visiting User be able to know about the photographer.
 2. Visiting User be able to see the work of the photographer.
@@ -14,7 +14,7 @@ Click [here](https://github.com/Vanitha-krishnan/Milestone-Project-1/blob/master
     
 ### Existing Features
 
-- Header  - allows users to see the logo and the company name and also navigate to different parts of the page. 
+- Header - allows users to see the logo and the company name and also navigate to different parts of the page. 
 - The header is sticky that allows the user to navigate at any time irrespective of where they are.
 - Homepage Section - allows the user to know about the Photographer with glimpse of his work.
 - Gallery Section - allows the user to view the skills of the photographer through samples of his work being displayed.
@@ -51,6 +51,13 @@ List of screen sizes tested are
 * iphone X
 * ipad
 * ipad pro
+ 
+ List of Web-Browsers tested are
+
+ * Internet Explorer.
+* Google Chrome.
+* Mozilla Firefox.
+* Safari
 
  ### Test Cases
 #### Header Section
@@ -77,7 +84,7 @@ Test Cases for mobile view
    1. User should be able to view Image and read about Photographer side by side in this section.
    2. Images in the home section has to be scrolling like a slideshow.
    3. Photo of the photographer has to be in circle shape.
-   4. Below the picture of the photgrapher should be the writeup of the photographer.
+   4. Below the picture of the photographer should be the write-up of the photographer.
 
  Test cases for mobile view   
     
@@ -104,7 +111,7 @@ Test cases for Desktop view
 3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
 
 Test cases for Mobile view
-1. User shoould be able to see the address of the company and contact form placed one below the other.
+1. User should be able to see the address of the company and contact form placed one below the other.
 2. Try to submit the empty form and verify that an error message about the required fields (First Name, Last Name, Email) appears
 3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
 
@@ -116,26 +123,26 @@ Test cases for Mobile view
 5. Try to click on the instagram icon for it to open instagram page.
 
 ### Fixed Issues
-    1. Fixed the image height in the homepage height at mobile view.
-    2. Fixed Footer overlapping the contact form.
-    3. Fixed the image display in the gallery.
+1. Fixed the image height in the homepage height at mobile view.
+2. Fixed Footer overlapping the contact form.
+3. Fixed the image display in the gallery.
 
 ## Deployment
 
 The steps to deploy the project.
-    1. Download the files form the Git respository.
-    2. downlaod option will get the zip folder of the repo.
-    3. Extract the zip folder of your choice. 
-    2. Run the index.HTML in your browser.
+1. Download the files form the Git respository.
+2. Downlaod option will get the zip folder of the repo.
+3. Extract the zip folder of your choice. 
+4. Run the index.HTML in your browser.
 
-Developer deployes the project by 
+Developer deploys the project by 
 
 1. To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, 
-type: python3 -m http.server
+type: python3 -m http.server.
 2. A blue button should appear to click: Make Public.
 3. Another blue button should appear to click: Open Browser.
 
 ## Credits
 
 ### Media
-- The photos used in this site were obtained from pexel.com. This photos are used only for educational purpose.
+- The photos used in this site were obtained from pexel.com. These photos are used only for educational purpose.
