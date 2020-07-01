@@ -18,14 +18,13 @@ body {
   box-sizing: border-box;
 }
 
-
 /*Footer Styling*/
 
 footer {
   height: 60px;
 }
 
-#footerdivision {
+#div-footer {
   height: 100%;
 }
 
@@ -39,12 +38,9 @@ footer {
 
 .social-networks i {
   font-size: 180%;
-  /* margin:1%;
-    padding:5%;*/
   padding-right: 11%;
   color: #777777;
 }
-
 
 /*Home-page Styling*/
 
@@ -74,7 +70,6 @@ p {
   padding: 1em;
   border: solid;
 }
-
 
 /* Image Slide show */
 
@@ -121,7 +116,6 @@ p {
   padding: 10px;
 }
 
-
 /* contact form*/
 
 input[type="text"],
@@ -157,8 +151,7 @@ input[type="submit"]:hover {
   width: 200px;
 }
 
-
-/*Responsive styling*/
+/*Responsive Home section styling*/
 
 @media screen and (max-width: 943px) {
   .img-home {

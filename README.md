@@ -8,7 +8,7 @@ In the webpage the looks, colors and fonts is given more weightage so it attract
 2. Visiting User be able to see the work of the photographer.
 3. Visiting User be able to connect to the photographer.
 
-Click [here](https://github.com/Vanitha-krishnan/Milestone-Project-1/blob/master/Wireframes/WireframeofCapturePhotographyWebpage.png) to view the wireframe for both desktop view and mobile view of this project.
+Click [here](https://github.com/Vanitha-krishnan/Milestone-Project-1/blob/master/wireframes/WireframeofCapturePhotographyWebpage.png) to view the wireframe for both desktop view and mobile view of this project.
 
 ## Features
     
